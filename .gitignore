@@ -1,0 +1,15 @@
+# Local backups (APK dumps, settings, package lists)
+backups/
+
+# Android SDK / build tools downloaded for the Zee5 shortcut
+tools/
+
+# Build artifacts
+*.apk
+*.idsig
+*.keystore
+zee5-shortcut/build/
+
+# Logs and local env
+gh-login.log
+.DS_Store
