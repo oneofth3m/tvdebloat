@@ -19,7 +19,6 @@ com.firestick.shemaroome
 com.eros.mitv
 com.balaji.alt.partner
 com.epicchannel.epicon.mi
-com.graymatrix.did
 com.hungama.movies.xtv
 com.mitv.tvhome.mitvplus
 co.sensara.tv.mitv"

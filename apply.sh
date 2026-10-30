@@ -15,7 +15,6 @@ com.firestick.shemaroome
 com.eros.mitv
 com.balaji.alt.partner
 com.epicchannel.epicon.mi
-com.graymatrix.did
 com.hungama.movies.xtv
 com.mitv.tvhome.mitvplus
 co.sensara.tv.mitv"
@@ -49,7 +48,8 @@ com.xiaomi.mitv.updateservice
 com.mitv.tvhome.atv
 com.xiaomi.mimusic2
 com.mitv.gallery
-com.android.gallery3d"
+com.android.gallery3d
+com.zee5.xiaomiTV"
 
 echo "== Removing unused apps =="
 for p in $REMOVE; do

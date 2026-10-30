@@ -20,7 +20,6 @@ adb shell pm enable --user 0 com.google.android.tvlauncher >/dev/null 2>&1
 adb shell pm set-home-activity com.google.android.tvlauncher/.MainActivity >/dev/null 2>&1
 adb shell am force-stop com.spocky.projengmenu >/dev/null 2>&1
 # adb uninstall com.spocky.projengmenu   # uncomment to remove Projectivy entirely
-# adb uninstall com.tvdebloat.zee5shortcut   # uncomment to remove the Zee5 tile helper
 
 # Re-enable system packages
 for p in \
@@ -53,7 +52,8 @@ for p in \
   com.mitv.tvhome.atv \
   com.xiaomi.mimusic2 \
   com.mitv.gallery \
-  com.android.gallery3d ; do
+  com.android.gallery3d \
+  com.zee5.xiaomiTV ; do
   adb shell pm enable --user 0 "$p" >/dev/null 2>&1 && echo "enabled  $p"
 done
 
